@@ -17,12 +17,18 @@ Basic Formatting:
     Quotes: Use > for blockquotes. 
 
 Links:
-
+```
+[linkname](Path)
+```
     Internal Links: Use double square brackets to create links to other notes in your vault (e.g., [[Note Name]]).
     External Links: Use standard Markdown syntax for external links (e.g., `Link Text. 
 
 Images:
+```
+![image](Path)
 
+```
+    
     Insert Images: Use the !Alt Text syntax, where image.jpg is the path to the image file. 
 
 Other Useful Features:
