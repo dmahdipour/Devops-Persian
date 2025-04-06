@@ -2,10 +2,10 @@
 Devops notebook in Persian language
 
 ## Sessions' index:
-[[01_Devops Culture/index|01_Devops Culture]]
-[[02_Linux/index|02_Linux]]
-[[03_Git/index|03_Git]]
-[[04_Automation/index|04_Automation]]
-[[05_Docker/index|05_Docker]]
-[[06_Observability/index|06_Observability]]
-[[07_Backup/index|07_Backup]]
+[01_Devops Culture](01_Devops Culture/index)
+[02_Linux](02_Linux/index)
+[03_Git](03_Git/index)
+[04_Automation](04_Automation/index)
+[05_Docker](05_Docker/index)
+[06_Observability](06_Observability/index)
+[07_Backup](07_Backup/index)
