@@ -1,0 +1,5 @@
+- Lead time for change(from development to production)
+- Change fail over rate
+- change frequency/ Deployment frequency
+- MTTR(Mean time to repair)
+- Customer ticket
