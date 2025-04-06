@@ -1,4 +1,3 @@
-
 - Config as variable
 - Stateless
 - Connectivity

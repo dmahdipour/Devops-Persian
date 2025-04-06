@@ -1,4 +1,4 @@
-### Digitial.io
+### Digitial.ai
 
 ![image](images/digitalAi.png)
 
