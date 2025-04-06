@@ -1,5 +1,4 @@
-Gemfile.lock
-pkg
-.bundle
-xcuserdata
+.obsidian/themes
+.obsidian/appearance.json
+.obsidian/workspace.json
 .DS_Store
