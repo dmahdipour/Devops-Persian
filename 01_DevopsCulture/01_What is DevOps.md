@@ -1,4 +1,4 @@
-### Devops is a culture for:
+### DevOps is a culture for:
 standardizing from development to Deployment by a cycle of:
 * Getting feedback from output
 * Improving them
