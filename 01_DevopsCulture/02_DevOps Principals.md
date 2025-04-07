@@ -1,12 +1,12 @@
-- Collaboration and interaction
-- Data-based decision
-- Continuous improvement
+- Collaboration and Interaction
+- Data-based Decision
+- Continuous Improvement
 - Automation
-- monitoring
+- Monitoring
 
 ## DevOps Goals
 - Speed
-- Performans
+- Performance
 - Stability
 
 

@@ -1,5 +1,6 @@
-- Lead time for change(from development to production)
+### Less is better:
+- Lead time for change (from development to production)
 - Change fail over rate
-- change frequency/ Deployment frequency
-- MTTR(Mean time to repair)
-- Customer ticket
+- Change frequency / Deployment frequency
+- MTTR (Mean Time To Repair)
+- Customer Ticket

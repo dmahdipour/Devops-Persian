@@ -1,7 +1,8 @@
+### Self experiences in working with numerous tools:
 - Config as variable
-- Stateless
+- use Stateless app
 - Connectivity
-- Readiness and liveness
-- Log
-- Test
-- Do not Save static objects on Database. save on object storage
+- set props for display Readiness and Liveness
+- Log ,Log-format and Metric
+- devote time for Testing app
+- Do not Save Static Objects on Database -> Save them on Object Storages
