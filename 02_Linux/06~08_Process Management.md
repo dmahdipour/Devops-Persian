@@ -61,7 +61,7 @@ ps -aux | grep docker
 return process list and search with grep
 
 ```bash
-piof nginx
+pidof nginx
 ```
 
 return id of process with run as Nginx
@@ -93,6 +93,7 @@ pidof nginx | xargs  kill -9
 kill permanently  list of pid's Nginx
 
 ```bash
+sudo apt install iotop
 iotop
 ```
 
