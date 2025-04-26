@@ -25,12 +25,12 @@ nano /etc/apt/apt.conf.d/01proxy
 ```
 
 ```shell
-Acquire::http::Proxy "http://127.0.0.0:8123";
-Acquire::https::Proxy "https://127.0.0.0:8123";
+Acquire::http::Proxy "http://127.0.0.1:8123";
+Acquire::https::Proxy "https://127.0.1.0:8123";
 ```
 ```shell
-export HTTP_PROXY=http://127.0.0.0:9898
-export HTTPS_PROXY=https://127.0.0.0:9898
+export HTTP_PROXY=http://127.0.0.1:9898
+export HTTPS_PROXY=https://127.0.0.1:9898
 ```
 ### Debian Packages Source
 [Debian Packages Source](https://www.debian.org/distrib/packages)
