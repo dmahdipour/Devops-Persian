@@ -48,6 +48,6 @@ sudo apt install openssh-server
 ### Transfer file between local and server
 We can use ssh for it. It encrypts files.
 ```shell
-scp SOURCE DESTINATION #If you are logined
-scp UserName@IP:/SOURCE DESTINATION #If you are not logined
+scp UserName@IP:/SOURCE DESTINATION #From Server to Local
+scp SOURCE UserName@IP:/DESTINATION #From Local to Server
 ```
