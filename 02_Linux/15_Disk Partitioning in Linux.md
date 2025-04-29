@@ -16,7 +16,8 @@ The Index of what saved where in Partitoins. It has limit count (Not volume), so
 **Note:** Use <u><i>df -h</i></u> for get partitions volumes and info.
 
 ### Dispractice
-All partitions are sub-partition of /. We can just have it but it is not good. We have to separate all partitions that can have side-effects on each others ex. **boot**(2 GB), **/**(LVM: 30~50 GB), **var**(LVM: Logs place).
+All partitions are sub-partition of /. We can just have it but it is not good. We have to separate all partitions that can have side-effects on each others ex. **boot**(2 GB), **/**(LVM: 30~50 GB), **var**(LVM: Logs place) and **/home** if use in Desktop mode.
+
 Other partitions is used for:
 * **etc:** Saving configuration files
 * **mnt:** Mount other partitions and disks
