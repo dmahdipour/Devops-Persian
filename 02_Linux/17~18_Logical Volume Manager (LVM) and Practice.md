@@ -1,8 +1,8 @@
 v### Logical Partition Management
 Resize partition based on physical resize.  Partition types':
-* PV (Physical Volume): Partitions   
-* LV (Logical Volume): A Layer above PV -> ex. divide 3 PV in 2 MV
-* VG (Volume Group): List of Logical Volumes
+* **PV** (Physical Volume): Partitions   
+* **LV** (Logical Volume): A Layer above PV -> ex. divide 3 PV in 2 MV
+* **VG** (Volume Group): List of Logical Volumes
 
 ```shell
 sudo pvs

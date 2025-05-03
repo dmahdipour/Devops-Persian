@@ -3,10 +3,10 @@
 * **GPT (Guide Partition Table):** Up to 128 Primary Partitions, Can use more than 2TB Hard Disk
 
 ### File System Formats for Linux
-* ext2
-* ext3
-* ext4 -> more efficient performance especially for small but numerous files
-* xfs -> Big data but less files
+* *ext2*
+* *ext3*
+* *ext4* -> more efficient performance especially for small but numerous files
+* *xfs* -> Big data but less files
 
 **Note:** After booting, Linux read <u>/etc/fstab</u> file to get which partition is for which job. It is better to have UUID for each partition. 
 

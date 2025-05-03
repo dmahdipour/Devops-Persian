@@ -15,7 +15,7 @@ mkfs FILE_SYSTEM PARTITION_PATH  #Format partition
 ```
 
 **Note:** After getting into fdisk, do this steps:
-1) Create a new label -> g: GPT, o: MBR, etc.
-2) Generic                   -> n: Add new Partition
-3) Generic                   ->  t: Change a partition type -> ex. 30 for LVM
-4) Save & Exit              -> w: Write table disk
+1) *Create a new label* -> g: GPT, o: MBR, etc.
+2) *Generic*                   -> n: Add new Partition
+3) *Generic*                   ->  t: Change a partition type -> ex. 30 for LVM
+4) *Save & Exit*              -> w: Write table disk
