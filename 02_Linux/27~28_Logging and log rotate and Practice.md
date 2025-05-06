@@ -24,3 +24,4 @@ Nginx Log Rotate Configuration on */etc/logrotate.d/nginx*
 ![images](images/NginxLogRotate.png)
 
 **Note:** All user Authentications (logins, logouts, etc) log is in  */var/log/auth.log*
+**Prevent to Display Nginx version:** Hardening -> Add this line to nginx config ``server_token off``

@@ -22,3 +22,18 @@ To have better performance we add roles to configuration files then address it t
 
 * iptables -save
 * iptables -restore
+
+``` shell
+iptables -F         #Flash the list
+iptables -nL        #Display rule list exist in Forward table (by default)
+iptables -t nat -nL #Choose nat table
+#Ban access to port 80 tcp for all ips in Forward table
+iptables -A INPUT -p tcp --dport 80 -j DROP -m --comment "my comment"
+#Give access to source ip 127.0.0.1 in CHECK table 
+iptables -A CHECK_INPUT -s 127.0.0.1 -j ACCEPT -m --comment "my comment"
+#Give access to outpur from ports 22,80,443 to all ips
+iptables -A OUTPUT -p tcp -m multiport --sport 22,80,443 -j ACCEPT
+
+iptables-save > ~/Desktop/iptables.rule #Save iptables config file in Desktop
+iptables-restore > ~/Desktop/iptables.rule #Restore iptables config file
+```
